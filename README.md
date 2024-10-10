@@ -46,7 +46,7 @@ Co-founder, CTO, Lead Developer, Product Lead, Copywriter, Bookkeeper, etc.
 
 Senior Flash Developer
 
-- One of two senior developers creating interactive rich media banner ads and web apps for clients like that were a big deal 20 years ago, like GE, Nextel, Cheetos, Pizza Hut, and other big named brands you'd see commericals for.
+- One of two senior developers creating interactive rich media banner ads and web apps for clients that were a big deal 20 years ago (GE, Nextel, Cheetos, Pizza Hut, and other big named brands you'd see commericals for).
 - Built a realtime multiplayer drawing tool for GE that used Flash Media Server to handle realtime low-latency data communication in Flash, kind of like WebRTC which didn't exist yet.
 
 ### Digital Child Inc, New York, NY (1999-2003)
