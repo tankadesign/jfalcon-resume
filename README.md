@@ -42,7 +42,7 @@ Co-founder, CTO, Lead Developer, Product Lead, Copywriter, Bookkeeper, etc.
 - Designed and built an Ambassador Account system, with a SvelteKit based dashboard, to allow priveleged users to earn income from affiliate codes they can give to other merchant users.
 - Hired by Stripe to integrate beta features into our project and provide feedback in a beta program for Stripe Connect in 2019.
 
-### AtmosphereBBDO, New York, NY (2004-2005)
+### AtmosphereBBDO, New York, NY (2003-2004)
 
 Senior Flash Developer
 
