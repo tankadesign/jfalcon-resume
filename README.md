@@ -61,7 +61,7 @@ Owner, Lead Developer
 Web developer & very bad designer
 
 - Designed and built the [website](https://web.archive.org/web/20010119134700/http://www1.collegemusic.com/) in Flash and HTML.
-- Created banners ads and annoying GIF animations.
+- Designed and published banner ads and other annoying GIF animations.
 - Helped setup and live stream music shows at various NYC venues.
 
 ---
