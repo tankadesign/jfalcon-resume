@@ -6,13 +6,13 @@ Senior Full Stack Developer • 917-523-3729 • jeff@tankadesign.com • Provid
 
 I am a self-taught full stack web and app developer with 25 years of experience, mainly as a frontend developer doing direct-to-client or agency work. I have built and run three small businesses over that time and have maintained years long business relationships with clients across the entertainment, beauty and tech industries. I am a consummate self-starter with a tireless work ethic which has allowed me to keep working through referrals for my entire career. After having spent a few years committed to building a startup that raised over $1M in funding I am looking for new opportunities to continue utilizing my various talents and experience. Although most of my work is web & app development, I have occasionally taken on creative work in video, motion graphics, 3D rendering, and music composition.
 
-In a previous life I worked in recording studios as an engineer specializing in ProTools and Logic when they were becoming industry standards.
+As a creative developer I have a strong sense of design and attention to detail, making me a good 2nd pair of eyes for catching design issues. In a previous life I worked in recording studios as an engineer specializing in ProTools and Logic when they were becoming industry standards.
 
 ### What do you even do here?
 
-I'm most comfortable using Vanilla JS, Typescript, Dart/Flutter, Svelte, React, React Native, Electron, Swift (UIKit), PHP, MySQL, Firebase, Wordpress, and CSS in all its forms. I spent almost a decade as a Flash/Actionscript developer and developed desktop and mobile apps in Adobe Air.
+I'm most comfortable using Vanilla JS, Typescript, Dart/Flutter, Svelte, React, React Native, Electron, Swift (UIKit), PHP, MySQL, Firebase, Wordpress, and CSS in all its forms. I spent almost a decade as a Flash/Actionscript developer and developed desktop and mobile apps in Adobe Air. I can use Figma like a pro.
 
-My creative weapons of choice are Cinema 4D, Logic Audio, Reason, After Effects, and Figma.
+My creative weapons of choice are Cinema 4D, Logic Audio, Reason, and After Effects.
 
 ---
 
