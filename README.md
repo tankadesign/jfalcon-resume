@@ -23,11 +23,11 @@ My creative weapons of choice are Cinema 4D, Logic Audio, Reason, After Effects,
 Owner, Lead Developer
 
 - Worked directly with clients at Google, Microsoft, Verizon, Yahoo, Aol, Syfy, NBC and others to design and build custom websites, tools, mobile apps, and a little bit of devops.
-- Choose my own tech stacks for most projects, and provided often hosted websites for clients.
 - Worked within small teams for Microsoft, Yahoo and Verizon, notably redesigning and building Makers.com in 2018 using a custom CMS and build system internal to Yahoo.
 - Hired and managed a full-time designer from 2010-2013
 - Built and maintained an internal custom Wordpress site for Verizon to manage their executive speaking engagements and events. Created custom event software so various departments could book executives as speakers at industry events like CES & MWC.
-- Designed and animated 3D presentations in Cinema4D for Syfy Channel twice a year (2007-2012) for their Upfronts to promote their shows and audience metrics to advertisers.
+- Choose the tech stacks for most projects, often providing and maintaining hosting services.
+- Designed and animated 3D presentations in Cinema 4D for Syfy Channel twice a year (2008-2014) for industry events to promote their shows and audience metrics to advertisers.
 - Won 2 awards for SyfyIgniters.com in 2014 and for Syfy's Dominion episodic website for 2 seasons in 2015 and 2016.
 
 ### MOTI Technologies, Brooklyn, NY (2016-2018, 2020-2024)
@@ -63,6 +63,8 @@ Web developer & very bad designer
 - Designed and built the [website](https://web.archive.org/web/20010119134700/http://www1.collegemusic.com/) in Flash and HTML.
 - Created banners ads and annoying GIF animations.
 - Helped setup and live stream music shows at various NYC venues.
+
+---
 
 ## Education
 
