@@ -86,7 +86,7 @@
       .info {
         margin: 0;
       }
-      .info a {
+      a {
         color: inherit;
         text-underline-offset: 5px;
         text-decoration-style: wavy;
@@ -100,6 +100,15 @@
         border-bottom: 1px solid var(--line);
         padding-bottom: 0.5rem;
         margin-bottom: 0.75rem;
+      }
+      .job-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 1.5rem;
+      }
+      .job-footer a {
+        font-size: 0.875rem;
       }
       .loc-date {
         display: flex;
@@ -169,6 +178,8 @@
           <span class="pipe">|</span> Providence, RI <span class="pipe">|</span>
           <a href="mailto:jeff@tankadesign.com">jeff@tankadesign.com</a> <span class="pipe">|</span>
           <a href="tel:+19175233729">917-523-3729</a>
+          <span class="pipe">|</span>
+          <a href="https://linkedin.com/in/jefalcon">LinkedIn</a>
         </p>
       </header>
       <section>
@@ -224,7 +235,10 @@
             <span class="dates">2016-2018, 2020-2024</span>
           </span>
         </h3>
-        <p class="job-title">Co-founder, CTO, Lead Developer, Product Lead, UX, Copywriter</p>
+        <div class="job-footer">
+          <p class="job-title">Co-founder, CTO, Lead Developer, Product Lead, UX, Copywriter</p>
+          <a href="https://motiapp.com">motiapp.com</a>
+        </div>
         <ul>
           <li>
             Architected, developed and maintained a native iOS video chat app written in Swift using Firebase Realtime
@@ -263,7 +277,10 @@
             <span class="dates">2005-present</span>
           </span>
         </h3>
-        <p class="job-title">Partner, Lead Developer</p>
+        <div class="job-footer">
+          <p class="job-title">Partner, Lead Developer</p>
+          <a href="https://tankadesign.com">tankadesign.com</a>
+        </div>
         <ul>
           <li>
             Worked directly with clients at Google, Microsoft, Verizon, Yahoo, Aol, Syfy, NBC and others to design and
