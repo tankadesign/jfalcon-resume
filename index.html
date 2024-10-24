@@ -10,6 +10,13 @@
       rel="stylesheet"
     />
     <style type="text/css">
+      :root {
+        --line: #ddd;
+        --secondary: #666;
+        --highlight: #493aa1;
+        --bg: #fff;
+        --text: #000;
+      }
       html,
       body {
         border: 0;
@@ -19,10 +26,9 @@
       body {
         font-family: 'Public Sans', Arial, sans-serif;
         font-optical-sizing: auto;
-        padding: 40px;
-      }
-      :root {
-        --line: #ddd;
+        padding: 0 3rem 4rem;
+        background-color: var(--bg);
+        color: var(--text);
       }
       * {
         box-sizing: border-box;
@@ -30,18 +36,6 @@
       main {
         max-width: 1200px;
         margin: auto;
-      }
-      .intro {
-        margin-top: 1.5rem;
-      }
-      .work,
-      .edu,
-      .tools {
-        margin-top: 3rem;
-      }
-      .job-title {
-        margin-top: 0.5rem;
-        font-size: 0.875rem;
       }
       h1,
       h2,
@@ -56,19 +50,6 @@
       h1:has(+ .info) {
         margin-bottom: 0.25rem;
       }
-
-      .info {
-        border-bottom: 1px solid #eee;
-        padding-bottom: 1.5rem;
-        margin-bottom: 1rem;
-      }
-      .info a {
-        color: inherit;
-        text-underline-offset: 5px;
-        text-decoration-style: wavy;
-        text-decoration-line: underline;
-        text-decoration-color: #493aa1;
-      }
       li {
         font-size: 0.875rem;
         list-style-type: circle;
@@ -81,27 +62,63 @@
         margin-bottom: 2rem;
         padding: 0 0 0 1rem;
       }
+      header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background: var(--bg);
+        padding-top: 1rem;
+        box-shadow: 0 5px 4px color-mix(in srgb, var(--bg), transparent 25%);
+      }
+
+      .intro {
+        margin-top: 1.5rem;
+      }
+      .work,
+      .edu,
+      .tools {
+        margin-top: 3rem;
+      }
+      .job-title {
+        margin-top: 0;
+        font-size: 0.875rem;
+      }
+
+      .info {
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      .info a {
+        color: inherit;
+        text-underline-offset: 5px;
+        text-decoration-style: wavy;
+        text-decoration-line: underline;
+        text-decoration-color: var(--highlight);
+      }
+
       .job-head {
         display: flex;
-        gap: 8px;
+        gap: 0.5rem;
         border-bottom: 1px solid var(--line);
-        padding-bottom: 8px;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.75rem;
       }
       .loc-date {
         display: flex;
-        gap: 8px;
+        gap: 0.5rem;
         align-items: first baseline;
       }
       .company {
         flex: 1;
       }
       .location {
-        color: #666;
+        color: var(--secondary);
         font-weight: 300;
         font-size: 0.75em;
       }
       .dates {
-        color: #666;
+        color: var(--secondary);
         font-size: 0.875em;
       }
       .pipe {
@@ -112,29 +129,47 @@
         padding: 0 0.5em;
       }
       @media (max-width: 500px) {
+        body {
+          padding: 0 1.5rem 2rem;
+        }
         .job-head {
           flex-direction: column;
         }
         .info {
           display: flex;
           flex-wrap: wrap;
-          gap: 8px 24px;
+          gap: 0.5rem 1.5rem;
         }
         .info .pipe {
           display: none;
+        }
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --line: #444;
+          --highlight: #7e73be;
+          --secondary: #999;
+          --bg: #2d2d2d;
+          --text: #d9d9d9;
+        }
+
+        li {
+          list-style-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 0L6.12257 3.45492H9.75528L6.81636 5.59017L7.93893 9.04508L5 6.90983L2.06107 9.04508L3.18364 5.59017L0.244718 3.45492H3.87743L5 0Z' fill='%237e73be'/%3E%3C/svg%3E%0A");
         }
       }
     </style>
   </head>
   <body>
     <main>
-      <h1>Jeff Falcon</h1>
-      <p class="info">
-        Senior Full Stack Developer
-        <span class="pipe">|</span> Providence, RI <span class="pipe">|</span>
-        <a href="mailto:jeff@tankadesign.com">jeff@tankadesign.com</a> <span class="pipe">|</span>
-        <a href="tel:+19175233729">917-523-3729</a>
-      </p>
+      <header>
+        <h1>Jeff Falcon</h1>
+        <p class="info">
+          Senior Full Stack Developer
+          <span class="pipe">|</span> Providence, RI <span class="pipe">|</span>
+          <a href="mailto:jeff@tankadesign.com">jeff@tankadesign.com</a> <span class="pipe">|</span>
+          <a href="tel:+19175233729">917-523-3729</a>
+        </p>
+      </header>
       <section>
         <h2 class="intro">Who do I think I am?</h2>
         <p>
