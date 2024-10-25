@@ -67,14 +67,19 @@
         margin-bottom: 2rem;
         padding: 0 0 0 1rem;
       }
-      header {
+      a {
+        color: inherit;
+        text-underline-offset: 5px;
+        text-decoration-line: underline;
+        text-decoration-color: var(--highlight);
+      }
+      .me {
         padding-top: 1rem;
         border-bottom: 1px solid var(--line);
         padding-bottom: 1.5rem;
         margin-bottom: 1rem;
         align-items: center;
       }
-
       .intro {
         margin-top: 1.5rem;
       }
@@ -90,13 +95,6 @@
       .info {
         margin: 0;
       }
-      a {
-        color: inherit;
-        text-underline-offset: 5px;
-        text-decoration-line: underline;
-        text-decoration-color: var(--highlight);
-      }
-
       .job-head {
         display: flex;
         gap: 0.5rem;
@@ -164,7 +162,6 @@
           --bg: #2d2d2d;
           --text: #d9d9d9;
         }
-
         li {
           list-style-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 0L6.12257 3.45492H9.75528L6.81636 5.59017L7.93893 9.04508L5 6.90983L2.06107 9.04508L3.18364 5.59017L0.244718 3.45492H3.87743L5 0Z' fill='%237e73be'/%3E%3C/svg%3E%0A");
         }
@@ -173,7 +170,7 @@
   </head>
   <body>
     <main>
-      <header>
+      <header class="me">
         <h1>Jeff Falcon</h1>
         <p class="info">
           Senior Full Stack Developer
@@ -230,132 +227,159 @@
       <section>
         <h2 class="work">Work experience</h2>
 
-        <h3 class="job-head">
-          <span class="company">MOTI Technologies</span>
-          <span class="loc-date">
-            <span class="location">Brooklyn, NY</span>
-            <span class="dates">2016-2018, 2020-2024</span>
-          </span>
-        </h3>
-        <div class="job-footer">
-          <p class="job-title">Co-founder, CTO, Lead Developer, Product Lead, UX, Copywriter</p>
-          <a href="https://motiapp.com">motiapp.com</a>
-        </div>
-        <ul>
-          <li>
-            Architected, developed and maintained a native iOS video chat app written in Swift using Firebase Realtime
-            Database and TokBox (now Vonage Video API), and a backend in Node that handled payments with Stripe Connect.
-          </li>
-          <li>
-            Redesigned and rebuilt mobile app in Flutter, moving the database to Firestore and available only on the
-            server side. Implemented client-side data caching to speed up app loading times. Integrated services from
-            Firebase Auth, Ably, Stripe Connect, Sendgrid, and AWS OpenSearch.
-          </li>
-          <li>
-            Developed and maintained a desktop version of the app for Windows and Mac using Svelte, with 100% feature
-            parity of the mobile app.
-          </li>
-          <li>
-            Supported my partners by writing decks, doing research, and building apps to raise over $1M in funding.
-          </li>
-          <li>Built custom direct messaging and scheduling features.</li>
-          <li>
-            Developed 2 versions of the backend in Node, including a web based prototype of the mobile app (which
-            eventually became the desktop app).
-          </li>
-          <li>
-            Hired and lead 8 engineers to develop video specialized recording features, a CI/CD pipeline, and directed 2
-            UX designers to design the mobile and desktop apps.
-          </li>
-          <li>
-            Designed and built a custom affiliate program, with a SvelteKit dashboard, to allow priveleged users to earn
-            additional income tracked through affiliate codes.
-          </li>
-        </ul>
-        <h3 class="job-head">
-          <span class="company">Tanka Design</span>
-          <span class="loc-date">
-            <span class="location">Brooklyn, NY</span>
-            <span class="dates">2005-present</span>
-          </span>
-        </h3>
-        <div class="job-footer">
-          <p class="job-title">Partner, Lead Developer</p>
-          <a href="https://tankadesign.com">tankadesign.com</a>
-        </div>
-        <ul>
-          <li>
-            Worked directly with clients at Google, Microsoft, Verizon, Yahoo, Aol, Syfy, NBC and others to design and
-            build custom websites, tools, mobile apps, and interactive presentations.
-          </li>
-          <li>
-            Worked within small teams for Microsoft, Yahoo and Verizon, notably redesigning and building Makers.com in
-            2018 using a custom CMS and build system internal to Yahoo.
-          </li>
-          <li>Hired and managed a full-time designer from 2010-2013</li>
-          <li>
-            Built and maintained an internal custom Wordpress site for Verizon to manage their executive speaking
-            engagements and events. Created custom event software so various departments could book executives as
-            speakers at industry events like CES & MWC.
-          </li>
-          <li>Choose the tech stacks for most projects, often providing and maintaining hosting services.</li>
-          <li>
-            Designed and animated 3D presentations in Cinema 4D for Syfy Channel twice a year (2008-2014) for industry
-            events to promote their shows and audience metrics to advertisers.
-          </li>
-          <li>
-            Won 2 awards for SyfyIgniters.com in 2014 and for Syfy's Dominion episodic website for 2 seasons in 2015 and
-            2016.
-          </li>
-        </ul>
-        <h3 class="job-head">
-          <span class="company">AtmosphereBBDO</span>
-          <span class="loc-date">
-            <span class="location">New York, NY</span>
-            <span class="dates">2003-2004</span>
-          </span>
-        </h3>
-        <p class="job-title">Senior Flash Developer</p>
-        <ul>
-          <li>
-            One of two senior developers creating interactive rich media ads and web apps for clients that were a big
-            deal 20 years ago (GE, Nextel, Cheetos, Pizza Hut, and other big named brands you'd see commericals for).
-          </li>
-          <li>
-            Built a realtime multiplayer drawing tool for GE that used Flash Media Server to handle realtime low-latency
-            data communication in Flash, a precursor to WebRTC.
-          </li>
-          <li>Mentored one junior developer who I have become friends with and hired repeatedly over the years</li>
-        </ul>
-        <h3 class="job-head">
-          <span class="company">Digital Child</span>
-          <span class="loc-date">
-            <span class="location">New York, NY</span>
-            <span class="dates">1999-2003</span>
-          </span>
-        </h3>
-        <p class="job-title">Co-founder, Interactive Developer, Product Designer</p>
-        <ul>
-          <li>Co-founded boutique web development studio to provide custom digital services for local businesses.</li>
-          <li>Designed and built interactive Flash sites, apps, and presentations.</li>
-          <li>
-            Hired and worked with a couple of backend developers to build a CMS and eCommerce tool that we licensed to a
-            few NYC companies and startups.
-          </li>
-        </ul>
-        <h3 class="job-head">
-          <span class="company">CollegeMusic.com</span>
-          <span class="loc-date">
-            <span class="location">New York, NY</span>
-            <span class="dates">1998-1999</span>
-          </span>
-        </h3>
-        <p class="job-title">Web developer & very bad designer</p>
-        <ul>
-          <li>Designed and built the website in Flash and HTML.</li>
-          <li>Designed and published banner ads and other annoying GIF animations.</li>
-          <li>Helped setup and live stream music shows at various NYC venues.</li>
-        </ul>
+        <article>
+          <header>
+            <h3 class="job-head">
+              <span class="company">MOTI Technologies</span>
+              <span class="loc-date">
+                <span class="location">Brooklyn, NY</span>
+                <span class="dates">2016-2018, 2020-2024</span>
+              </span>
+            </h3>
+            <div class="job-footer">
+              <p class="job-title">Co-founder, CTO, Lead Developer, Product Lead, UX, Copywriter</p>
+              <a href="https://motiapp.com">motiapp.com</a>
+            </div>
+          </header>
+          <ul>
+            <li>
+              Architected, developed and maintained a native iOS video chat app written in Swift using Firebase Realtime
+              Database and TokBox (now Vonage Video API), and a backend in Node that handled payments with Stripe
+              Connect.
+            </li>
+            <li>
+              Redesigned and rebuilt mobile app in Flutter, moving the database to Firestore and available only on the
+              server side. Implemented client-side data caching to speed up app loading times. Integrated services from
+              Firebase Auth, Ably, Stripe Connect, Sendgrid, and AWS OpenSearch.
+            </li>
+            <li>
+              Developed and maintained a desktop version of the app for Windows and Mac using Svelte, with 100% feature
+              parity of the mobile app.
+            </li>
+            <li>
+              Supported my partners by writing decks, doing research, and building apps to raise over $1M in funding.
+            </li>
+            <li>Built custom direct messaging and scheduling features.</li>
+            <li>
+              Developed 2 versions of the backend in Node, including a web based prototype of the mobile app (which
+              eventually became the desktop app).
+            </li>
+            <li>
+              Hired and lead 8 engineers to develop video specialized recording features, a CI/CD pipeline, and directed
+              2 UX designers to design the mobile and desktop apps.
+            </li>
+            <li>
+              Designed and built a custom affiliate program, with a SvelteKit dashboard, to allow priveleged users to
+              earn additional income tracked through affiliate codes.
+            </li>
+          </ul>
+        </article>
+        <article>
+          <header>
+            <h3 class="job-head">
+              <span class="company">Tanka Design</span>
+              <span class="loc-date">
+                <span class="location">Brooklyn, NY</span>
+                <span class="dates">2005-present</span>
+              </span>
+            </h3>
+            <div class="job-footer">
+              <p class="job-title">Partner, Lead Developer</p>
+              <a href="https://tankadesign.com">tankadesign.com</a>
+            </div>
+          </header>
+          <ul>
+            <li>
+              Worked directly with clients at Google, Microsoft, Verizon, Yahoo, Aol, Syfy, NBC and others to design and
+              build custom websites, tools, mobile apps, and interactive presentations.
+            </li>
+            <li>
+              Worked within small teams for Microsoft, Yahoo and Verizon, notably redesigning and building Makers.com in
+              2018 using a custom CMS and build system internal to Yahoo.
+            </li>
+            <li>Hired and managed a full-time designer from 2010-2013</li>
+            <li>
+              Built and maintained an internal custom Wordpress site for Verizon to manage their executive speaking
+              engagements and events. Created custom event software so various departments could book executives as
+              speakers at industry events like CES & MWC.
+            </li>
+            <li>Choose the tech stacks for most projects, often providing and maintaining hosting services.</li>
+            <li>
+              Designed and animated 3D presentations in Cinema 4D for Syfy Channel twice a year (2008-2014) for industry
+              events to promote their shows and audience metrics to advertisers.
+            </li>
+            <li>
+              Won 2 awards for SyfyIgniters.com in 2014 and for Syfy's Dominion episodic website for 2 seasons in 2015
+              and 2016.
+            </li>
+          </ul>
+        </article>
+        <article>
+          <header>
+            <h3 class="job-head">
+              <span class="company">AtmosphereBBDO</span>
+              <span class="loc-date">
+                <span class="location">New York, NY</span>
+                <span class="dates">2003-2004</span>
+              </span>
+            </h3>
+            <div class="job-footer">
+              <p class="job-title">Senior Flash Developer</p>
+            </div>
+          </header>
+          <ul>
+            <li>
+              One of two senior developers creating interactive rich media ads and web apps for clients that were a big
+              deal 20 years ago (GE, Nextel, Cheetos, Pizza Hut, and other big named brands you'd see commericals for).
+            </li>
+            <li>
+              Built a realtime multiplayer drawing tool for GE that used Flash Media Server to handle realtime
+              low-latency data communication in Flash, a precursor to WebRTC.
+            </li>
+            <li>Mentored one junior developer who I have become friends with and hired repeatedly over the years</li>
+          </ul>
+        </article>
+        <article>
+          <header>
+            <h3 class="job-head">
+              <span class="company">Digital Child</span>
+              <span class="loc-date">
+                <span class="location">New York, NY</span>
+                <span class="dates">1999-2003</span>
+              </span>
+            </h3>
+            <div class="job-footer">
+              <p class="job-title">Co-founder, Interactive Developer, Product Designer</p>
+            </div>
+          </header>
+          <ul>
+            <li>Co-founded boutique web development studio to provide custom digital services for local businesses.</li>
+            <li>Designed and built interactive Flash sites, apps, and presentations.</li>
+            <li>
+              Hired and worked with a couple of backend developers to build a CMS and eCommerce tool that we licensed to
+              a few NYC companies and startups.
+            </li>
+          </ul>
+        </article>
+        <article>
+          <header>
+            <h3 class="job-head">
+              <span class="company">CollegeMusic.com</span>
+              <span class="loc-date">
+                <span class="location">New York, NY</span>
+                <span class="dates">1998-1999</span>
+              </span>
+            </h3>
+            <div class="job-footer">
+              <p class="job-title">Web developer & very bad designer</p>
+            </div>
+          </header>
+          <ul>
+            <li>Designed and built the website in Flash and HTML.</li>
+            <li>Designed and published banner ads and other annoying GIF animations.</li>
+            <li>Helped setup and live stream music shows at various NYC venues.</li>
+          </ul>
+        </article>
       </section>
 
       <section>
