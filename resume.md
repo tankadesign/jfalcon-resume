@@ -28,7 +28,7 @@ https://www.linkedin.com/in/jeff-falcon/
 
 - Languages: JavaScript, TypeScript, HTML & CSS, Dart/Flutter, Swift (UIKit), PHP, ActionScript (pre-2014).
 - Frameworks & Tooling: SvelteKit, NextJS/React, ReactNative, Nuxt/Vue, Electron, Wordpress, Shopify, Fastify, Tailwind, Vite, jQuery.
-- DB & Server: Firebase, Mongo, MySQL, SQLite, Sanity GROQ, GraphQL, Docker, AWS OpenSearch, NodeJS.
+- DB & Server: Firebase, Mongo, Postgres, MySQL, SQLite, Sanity GROQ, GraphQL, Docker, AWS OpenSearch, NodeJS.
 
 ---
 
