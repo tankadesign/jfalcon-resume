@@ -28,7 +28,7 @@ https://www.linkedin.com/in/jeff-falcon/
 
 - Languages: JavaScript, TypeScript, HTML & CSS, Dart/Flutter, Swift (UIKit), PHP, ActionScript (pre-2014).
 - Frameworks & Tooling: SvelteKit, NextJS/React, ReactNative, Nuxt/Vue, Electron, Wordpress, Shopify, Fastify, Tailwind, Vite, jQuery.
-- DB & Server: Firebase, Sanity GROQ, GraphQL, MySQL, SQLite, Docker, AWS OpenSearch.
+- DB & Server: Firebase, Mongo, MySQL, SQLite, Sanity GROQ, GraphQL, Docker, AWS OpenSearch, NodeJS.
 
 ---
 
@@ -45,7 +45,8 @@ Brooklyn, NY
 motiapp.com
 
 - Architected, developed and maintained a native iOS video chat app written in Swift using Firebase Realtime Database and TokBox (now Vonage Video API), and a backend in Node that handled payments with Stripe Connect.
-- Redesigned and rebuilt mobile app in Flutter, moving the database to Firestore and available only on the server side. Implemented client-side data caching to speed up app loading times. Integrated services from Firebase Auth, Ably, Stripe Connect, Sendgrid, and AWS OpenSearch.
+- Rebuilt newly designed mobile app in Flutter, moving the database to Firestore and handling data sync with a bespoke implementation, with a client-side data caching solution to speed up app loading times.
+- Deeply integrated services from Agora, Stripe Connect, Ably, Firebase, Sendgrid, and AWS OpenSearch.
 - Developed and maintained a desktop version of the app for Windows and Mac using Svelte, with 100% feature parity of the mobile app.
 - Supported my partners by writing decks, doing research, and building apps to raise over $1M in funding.
 - Built custom direct messaging and scheduling features.
